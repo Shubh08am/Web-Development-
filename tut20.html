@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+            /* universal selector*/ 
+            *{
+                box-sizing: border-box;
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                background-color: rgb(169, 169, 236);
+            }
+        .con{
+            background-color: burlywood;
+            border: 3px solid rgb(158, 16, 16);
+
+            padding-top : 9px;
+            padding-bottom : 9px;
+            padding-left : 9px;
+            padding-right : 9px;
+
+            /*same for margin*/
+            margin: 34px 19px 40px 19px;
+            width: 400px;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class = "con"> 
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <p  id="f"> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div class = "con"> 
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p  id="s"> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class = "con"> 
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p  id="t"> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+</body>
+</html>
